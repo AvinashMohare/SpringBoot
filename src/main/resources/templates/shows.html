@@ -14,30 +14,30 @@
                 <th>Episode</th>
                 <th>Rating</th>
             </tr>
-            <tr>
-                <td>Breaking Bad</td>
-                <td>Ozymandias</td>
-                <td>10.0</td>
+            <tr th:object="${first}">
+                <td th:text="*{title}"></td>
+                <td th:text="*{episode}"></td>
+                <td th:text="*{rating}"></td>
             </tr>
-            <tr>
-                <td>Attack on Titan</td>
-                <td>Hero</td>
-                <td>9.9</td>
+            <tr th:object="${second}">
+                <td th:text="*{title}"></td>
+                <td th:text="*{episode}"></td>
+                <td th:text="*{rating}"></td>
             </tr>
-            <tr>
-                <td>Breaking Bad</td>
-                <td>Ozymandias</td>
-                <td>10.0</td>
+            <tr th:object="${third}">
+                <td th:text="*{title}"></td>
+                <td th:text="*{episode}"></td>
+                <td th:text="*{rating}"></td>
             </tr>
-            <tr>
-                <td>Attack on Titan</td>
-                <td>Perfect Game</td>
-                <td>9.9</td>
+            <tr th:object="${fourth}">
+                <td th:text="*{title}"></td>
+                <td th:text="*{episode}"></td>
+                <td th:text="*{rating}"></td>
             </tr>
-            <tr>
-                <td>Breaking Bad</td>
-                <td>Ozymandias</td>
-                <td>10.0</td>
+            <tr th:object="${fifth}">
+                <td th:text="*{title}"></td>
+                <td th:text="*{episode}"></td>
+                <td th:text="*{rating}"></td>
             </tr>
         </table>
     </body>
